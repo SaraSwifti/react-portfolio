@@ -1,0 +1,12 @@
+.card {
+    background-color: cadetblue;
+    border-style: outset;
+    border-radius: 25px;
+    width: 25%;
+    margin: 100px 100px 50px 100px;
+    }
+    
+    .btn {
+        background-color: rgb(25, 57, 83);
+    
+    }

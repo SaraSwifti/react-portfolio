@@ -1,4 +1,4 @@
-const projects = [
+const Projects = [
     {
       
         id: 1,
@@ -49,4 +49,4 @@ const projects = [
     }
 ]
 
-export default projects;
+export default Projects;
