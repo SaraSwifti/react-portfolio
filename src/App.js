@@ -7,7 +7,7 @@ import Footer from "./components/Footer/Footer";
 import About from "./pages/About";
 import ProjectPage from "./pages/ProjectPage";
 import ContactMe from "./pages/ContactMe";
-import {BrowserRouter as Router, Route} from "react-router-dom";
+import {Route, BrowserRouter as Router, Switch} from "react-router-dom";
 // Taking this to the ProjectPage file
 // function createprojects(project) {
 //     return <ProjectCard
@@ -25,13 +25,16 @@ function App() {
     return (
     <Router>
         <div>
-            <Header />
+            
             <div className="container">
-                <Route exact path="/" component={About} />
+                <Header />
+                <Switch>
+                <Route path="/" component={About} />
                 <Route path="/projectpage" component={ProjectPage} />
-                <Route path="/contactme"  component={ContactMe} />              
+                <Route path="/contactme"  component={ContactMe} /> 
+                </Switch>             
             </div>
-            {/* {projects.map(createprojects)} */}
+           
             <Footer />
             
         </div>
