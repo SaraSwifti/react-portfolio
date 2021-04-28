@@ -4,8 +4,8 @@ import React from "react";
 function ProjectCard(props){
     return (
         <div className="container">
-            <div className="row justify-content-end">
-        <div className="col align-self-start">
+            <div className="row">
+        <div className="col">
         <div className="card" >
             <img src={props.img} className="card-img-top" alt={props.name} />
             <div className="card-body">
