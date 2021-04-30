@@ -3,6 +3,7 @@ import PwGeneratorPic from "../images/password.JPG";
 import NoteTakerPic from "../images/notetaker.JPG";
 import BurgerLogPic from "../images/burgerlogger.JPG";
 import Project2 from "../images/homemaint.JPG";
+// import Hector from "https://github.com/HectorDiazJr";
 
 const projects = [
     {
@@ -10,7 +11,7 @@ const projects = [
         id: 1,
         img: BalancePic,
         name: "Looking for Balance",
-        text: "This was my first project. I had the priviledge of being in a group with Hector Diaz {https://github.com/HectorDiazJr} and Jarrel Boone {https://github.com/JarellB4}. It was a pleasure to work with them and learn from one another",
+        text: "This was my first project. I had the priviledge of being in a group with Hector Diaz: {{Hector}} and Jarrel Boone: (https://github.com/JarellB4). It was a pleasure to work with them and learn from one another",
         deploy: "https://jarellb4.github.io/Looking-for-balance/"
     },
     {
