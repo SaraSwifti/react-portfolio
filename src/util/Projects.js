@@ -19,7 +19,7 @@ const projects = [
         id: 2,
         img: PwGeneratorPic,
         name: "My Random Password Generator",
-        text: "This was one my first homework projects. It feel monumental at first to get this done. Little did I know what lie ahead",
+        text: "This was one my first homework projects. It felt monumental at first to get this done. Little did I know what lied ahead.",
         deploy: "https://saraswifti.github.io/password-generator/"
     },
     {

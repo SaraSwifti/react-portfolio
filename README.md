@@ -1,6 +1,7 @@
 # Unit 20 React Homework: React Portfolio
 # deployed link and functionality recordings
-
+(deployed app)[https://sarataylorreact.herokuapp.com/]
+ 
 ## Requirements
 
 * Updated portfolio featuring 6 total projects
