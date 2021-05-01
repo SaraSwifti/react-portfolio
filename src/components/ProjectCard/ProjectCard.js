@@ -5,10 +5,10 @@ import "./ProjectCard.css";
 function ProjectCard(props){ 
 
     return (
-       <div className="container">;
-            <div className="row">
+       
+            
           <div className="col">
-          <div className="card" >
+          <div className="card w-75" >
             <img className="card-img-top" src={props.img}  alt={props.name} />
             <div className="card-body">
                 <h5 className="card-title">{props.name}{props.id}</h5>
@@ -17,9 +17,6 @@ function ProjectCard(props){
             </div>
         </div>
         </div>
-        </div>
-         </div>
-
     );
    
 }

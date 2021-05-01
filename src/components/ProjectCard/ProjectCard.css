@@ -1,4 +1,7 @@
 .btn {
     background-color: cadetblue !important;
+    
 }
-
+.card {
+    margin: 25px,25px, 25px, 25px !important;
+} 

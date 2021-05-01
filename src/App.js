@@ -13,7 +13,7 @@ import {Route, BrowserRouter as Router, Switch,} from "react-router-dom";
 function App() {
     return (
     <Router>
-        <div>
+        <div className="jumbotron">
                 <Header />
               
                 <Switch>

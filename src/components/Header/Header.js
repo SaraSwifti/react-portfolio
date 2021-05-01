@@ -4,7 +4,7 @@ import "./Header.css";
 
 function Header() {
     return (
-        <nav className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+        <nav className=" nav navbar navbar-expand-lg sticky-top">
             
                 <li className="navbar-brand" to="../pages/About.js">Sara Taylor's React App</li>
                 <ul className="navbar-nav me-auto mb-2 mb-lg-0">

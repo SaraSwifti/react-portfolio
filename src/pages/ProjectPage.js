@@ -2,12 +2,14 @@ import React from "react";
 import ProjectCard from "../components/ProjectCard/ProjectCard";
 import projects from "../util/Projects";
 
+
 //need to import styling page.
 
 const ProjectPage = () => {
 
     return (
-        <div className="col">
+        <div className="container">
+            <div className="row">
             {projects.map((project) => {
                 return (
                     <ProjectCard
@@ -21,6 +23,7 @@ const ProjectPage = () => {
             }
             )
             }
+        </div>
         </div>
 
     )
