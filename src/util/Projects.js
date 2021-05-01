@@ -11,7 +11,7 @@ const projects = [
         id: 1,
         img: BalancePic,
         name: "Looking for Balance",
-        text: "This was my first project. I had the priviledge of being in a group with Hector Diaz: {{Hector}} and Jarrel Boone: (https://github.com/JarellB4). It was a pleasure to work with them and learn from one another",
+        text: "This was my first project. I had the priviledge of being in a group with Hector Diaz (https://github.com/HectorDiazJr) and Jarrel Boone: (https://github.com/JarellB4). It was a pleasure to work with them and learn from one another",
         deploy: "https://jarellb4.github.io/Looking-for-balance/"
     },
     {
@@ -46,13 +46,6 @@ const projects = [
         name: "Home Maintenance - Project Two",
         text: "This was our project 2. From what I hear, Project two tests the spirits of all who are involved including lots of late nights and heart palipatations.  I would like to thank the brave men who joined me in this endvour: Tea! {www.github.com/Teangelo1}, Bobert{www.github.com/robertsunde} and Stever {www.github.com/SteveBecmpe}",
         deploy: "https://agile-gorge-53521.herokuapp.com/"
-    },
-    {
-        id: 5,
-        img: "",
-        name: "",
-        text: "",
-        deploy: ""
     }
 ]
 

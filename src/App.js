@@ -7,6 +7,7 @@ import Footer from "./components/Footer/Footer";
 import About from "./pages/About";
 import ProjectPage from "./pages/ProjectPage";
 import ContactMe from "./pages/ContactMe";
+import "./App.css";
 import {Route, BrowserRouter as Router, Switch,} from "react-router-dom";
 
 

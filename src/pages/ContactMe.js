@@ -40,14 +40,11 @@ function ContactMe() {
             <div className="card">
                 <h5> Please email me with any questions. I would love to hear from you!</h5>
                 <a className="btn" href="mailto:sara.swifti@gmail.com" rel="noopener noreferrer" target="_blank">Say Hello</a>
-            </div>
-            <div className="col">
-                <div className="card h-100">
-                    <img className="resume" src={ResumeIcon} class="card-img-top" alt={ResumeAlt} />
+                     <img className="resume" src={ResumeIcon} class="card-img-top" alt={ResumeAlt} />
                     <div className="card-body">
                         <a className="resume-button" href={ Resume } download="Sara-Taylor-CV-2021-public.pdf" target="_blank" rel="noreferrer">Download My Resume</a>
                     </div>
-                </div>
+
             </div>
         </div>
     )
