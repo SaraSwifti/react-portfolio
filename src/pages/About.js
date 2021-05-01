@@ -15,7 +15,7 @@ function About() {
     <div className="row">
       <div className="col-3">
         <div className="headShot">
-          <img src= {ProfilePicture} className="img-fluid w-100"
+          <img className="img-fluid w-100" src= {ProfilePicture} 
           alt={PhotoAlt}/>
         </div>
         </div>

@@ -9,11 +9,11 @@ function ProjectCard(props){
             <div className="row">
           <div className="col">
           <div className="card" >
-            <img src={props.img} className="card-img-top" alt={props.name} />
+            <img className="card-img-top" src={props.img}  alt={props.name} />
             <div className="card-body">
                 <h5 className="card-title">{props.name}{props.id}</h5>
                 <p className="card-text">{props.text}</p>
-                <a href={props.deploy} className="btn btn-primary">Deployed App</a>
+                <a className="btn btn-primary" href={props.deploy} >Deployed App</a>
             </div>
         </div>
         </div>
