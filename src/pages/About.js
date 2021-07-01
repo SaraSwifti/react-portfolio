@@ -21,9 +21,9 @@ function About() {
         </div>
         <div className="col">
           <p>Hello, my name is Sara Taylor. I never saw myself as the programing type, however those who are close to me and understand my creative technical skill sets encouraged me to take a deeper look at web design.
-            Sooo, here I am making the leap! </p>
+            Sooo, here I am making the leap and loving it.  </p>
           <br></br>
-            <p>I have loved working with my classmates and loved what I have learned so far. So Far, the logic and organization has made REACT one of my favorite libraries to work with. I will be updating projects to my portfolio page as I complete them. Please stay tuned. </p>
+          <p> I will be updating projects to my portfolio page as I complete them. Please stay tuned. </p>
            
         </div>
         </div>
