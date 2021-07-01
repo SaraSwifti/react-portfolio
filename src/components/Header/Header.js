@@ -6,8 +6,8 @@ function Header() {
     return (
         <nav className=" nav navbar navbar-expand-lg sticky-top">
             
-                <li className="navbar-brand" to="../pages/About.js">Sara Taylor's React App</li>
-                <ul className="navbar-nav me-auto mb-2 mb-lg-0">
+                <li className="navbar-brand" to="../pages/About.js"><h1>Sara Taylor's Profile</h1><p>Made with REACT</p></li>
+                <ul className="navcont navbar-nav me-auto mb-2 mb-lg-0">
                     <li className="nav-item">
                         <Link className="nav-link active"  to="/">About</Link>
                     </li>
@@ -15,7 +15,7 @@ function Header() {
                         <Link className="nav-link active"  to="/projectpage">Project Porfolio</Link>
                     </li>
                     <li className="nav-item">
-                        <Link className="nav-link active"  to="/contactme">Contact</Link>
+                        <Link className="navlinkfont nav-link active"  to="/contactme">Contact</Link>
                     </li>
                     </ul>
                 

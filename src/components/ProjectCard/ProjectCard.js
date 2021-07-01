@@ -4,9 +4,7 @@ import "./ProjectCard.css";
 
 function ProjectCard(props){ 
 
-    return (
-       
-            
+    return ( 
           <div className="col">
           <div className="card w-75" >
             <img className="card-img-top" src={props.img}  alt={props.name} />

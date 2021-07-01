@@ -12,6 +12,7 @@ const ProjectPage = () => {
             <div className="row">
             {projects.map((project) => {
                 return (
+                    
                     <ProjectCard
                         id={project.id}
                         key={project.id}

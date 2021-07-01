@@ -11,7 +11,7 @@ const projects = [
         id: 1,
         img: BalancePic,
         name: "Looking for Balance",
-        text: "This was my first project. I had the priviledge of being in a group with Hector Diaz (https://github.com/HectorDiazJr) and Jarrel Boone: (https://github.com/JarellB4). It was a pleasure to work with them and learn from one another",
+        text: "This was my first project. I had the priviledge of being in a group with Hector Diaz (https://githu.com/HectorDiazJr) and Jarrel Boone: (https://github.com/JarellB4). It was a pleasure to work with them and learn from one another",
         deploy: "https://jarellb4.github.io/Looking-for-balance/"
     },
     {
@@ -23,7 +23,7 @@ const projects = [
         deploy: "https://saraswifti.github.io/password-generator/"
     },
     {
-        //notetaker
+        //notetakergit
         id: 3,
         img: NoteTakerPic,
         name: "Note Taker",
