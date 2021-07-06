@@ -1,53 +1,36 @@
 import React from "react";
 import "./ContactMe.css";
+import "../images/LI-In-Bug.png";
+import Resume from "../images/Sara Taylor CV ATS-AE-2021.pdf";
 
-import ResumeIcon from "../images/resumeicon.png";
-import Resume from "../images/Sara Taylor- CV- 2021- ATS Read.pdf";
-//Can't do my github link because of my UN and PW
-// import GitHubLink from "https://github.com/SaraSwifti";
-// import GitHubMark from "../images/GitHub-Mark-64px.png";
-// import LinkedinLink from "https://www.linkedin.com/in/sara-taylor-7a850331/";
-// import LinkedinImage from "../images/LI-In-Bug.png";
-// const linked = "linked in icon";
-// const githubalt= "github icon";
 
 const ResumeAlt = "Download Sara Taylor CV";
-//   {/* <div class="col">
-//                     <div class="card h-100">
-//                         <img className="githubcard card-img-top" src={GitHubMark} alt={{githubalt}}/>
-//                             <div class="card-body">
-//                                 <a className="link" href={{GitHubLink}} target="_blank" rel="noreferrer">Git Hub link</a>
-//                                 <h5 class="card-title">Git Hub Profile Link</h5>
 
-//                             </div>
-//                         </div>
-//                     </div> */}      <div class="row row-cols-1 row-cols-md-3 g-4">
-// <div class="col">
-//     <div class="card h-100">
-//         <img src={LinkedinImage} class="card-img-top" alt={linked}/>
-//             <div class="card-body">
-//             <a className="link" href={LinkedinLink} target="_blank" rel="noreferrer">Linkedin link</a>
-//                 <h5 class="card-title">Linkedin Link</h5>
-//             </div>
-
-//     </div>
-//     </div>
-// </div>
-
+// {/* <a href={LinkedinLink} target="_blank">
+//                         <img  src={Linkedinicon} alt="link to Sara Taylor's profile"></img></a>
+//                         <img src={Linkedinicon} ><a href={LinkedinLink}></a></img>
+//                         <br></br> */}
 function ContactMe() {
     return (
         <div className="container">
-            <div className="card">
-                <h5> Please email me with any questions. I would love to hear from you!</h5>
-                <a className="btn" href="mailto:sara.swifti@gmail.com" rel="noopener noreferrer" target="_blank">Say Hello</a>
-                     <img className="resume" src={ResumeIcon} class="card-img-top" alt={ResumeAlt} />
-                    <div className="card-body">
-                        <a className="resume-button" href={ Resume } download="Sara-Taylor-CV-2021-public.pdf" target="_blank" rel="noreferrer">Download My Resume</a>
-                    </div>
-
-            </div>
-        </div>
-    )
+            <div className="row">
+                <div className="card contact">
+                    <h3>Ways to contact me</h3>
+                    <a className="btn" href="mailto:sara.swifti@gmail.com" rel="noopener noreferrer" target="_blank">Email Me</a>
+                    <br></br>
+                    <a className="btn" href="tel:616-558-1817" rel="noopener noreferrer" target="_blank">Call my Moblie</a>
+                    <br></br>
+                    <h3>My updated Resume</h3>
+                    <a className="btn btn-text-color"alt={ResumeAlt} href={Resume} download="Sara-Taylor-CV-2021-public.pdf" target="_blank" rel="noreferrer">Download My Resume</a>
+                </div>
+               
+                    <div className="card contact badge-base LI-profile-badge" data-locale="en_US" data-size="medium" data-theme="light" data-type="VERTICAL" data-vanity="sara-taylor-7a850331" data-version="v1"><a class="badge-base__link LI-simple-link" href="https://www.linkedin.com/in/sara-taylor-7a850331?trk=profile-badge">Professional Profile</a>
+                    
+                 </div>  
+            
+             </div>
+        </div >
+            )
 }
 
-export default ContactMe;
+            export default ContactMe;
