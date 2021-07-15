@@ -10,21 +10,20 @@ const ProjectPage = () => {
     return (
         <div className="container">
             <div className="row">
-            {projects.map((project) => {
-                return (
-                    
-                    <ProjectCard
-                        id={project.id}
-                        key={project.id}
-                        img={project.img}
-                        name={project.name}
-                        text={project.text}
-                        deploy={project.deploy} />
-                );
-            }
-            )
-            }
-        </div>
+                {projects.map((project) => {
+                    return (
+
+                        <ProjectCard
+
+                            img={project.img}
+                            name={project.name}
+                            text={project.text}
+                            deploy={project.deploy} />
+                    );
+                }
+                )
+                }
+            </div>
         </div>
 
     )
